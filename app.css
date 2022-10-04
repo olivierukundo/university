@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.container-fluid{
+    background-color: green;
+}
+.pic1{
+    position: relative;
+}
+
+.img0{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.text0{
+    position: absolute;
+    width: 30%;
+    top: 60%;
+    margin-left: 120px;
+    background-color: rgb(47, 47, 53);
+    padding: 30px;
+    color: white;
+}
+
+.warning{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 3%;
+    background-color: grey;
+}
+
+.children
+{ 
+    float: left;
+    width: 30%;
+    margin: 15;
+    padding: 2%;
+
+  }
+.grand{
+    float: left;
+    width: 33.33%;
+    margin: 15;
+    padding: 2%;
+
+  }
+
+
+  .mainbody{
+    content: "";
+    display: table;
+    clear: both;
+  
+  }
+
+
+@media screen and (max-width: 600px){
+    .img0{
+        display: block;
+        margin-left: 30px;
+        margin-right: auto;
+        width: 20%;
+        height: 20%;
+    }
+    
+    .text0{
+        position: absolute;
+        width: 20%;
+        top: 60%;
+        margin-left: 30px;
+        font-size: 8px;
+        background-color: rgb(47, 47, 53);
+        padding: 10px;
+        color: white;
+    }
+    .pic1{
+        margin-bottom: 50px;
+    }
+    
+    .warning{
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 3%;
+        background-color: grey;
+        width: 20%;
+    }
+    .mainbody{
+width: 100px;
+    }
+
+    .children{
+        display: table;
+        clear: both;
+
+    }
+    
+    .grand{
+        width: 10%;
+        display: table;
+        clear: both;
+  }
+}
+
+
+@media screen and (max-width: 900px){
+    .img0{
+        display: block;
+        margin-left: 30px;
+        margin-right: auto;
+        width: 50%;
+        height: 10%;
+    }
+    
+    .text0{
+        position: absolute;
+        width: 20%;
+        top: 60%;
+        margin-left: 30px;
+        font-size: 8px;
+        background-color: rgb(47, 47, 53);
+        padding: 10px;
+        color: white;
+    }
+    .pic1{
+        margin-bottom: 50px;
+    }
+    
+    .warning{
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 3%;
+        background-color: grey;
+        width: 20%;
+    }
+    .mainbody{
+       width: 100px;
+    }
+
+    .children{
+        display: table;
+        clear: both;
+        width: 100px;
+    }
+    
+    .grand{
+        width: 100%;
+        display: table;
+        clear: both;
+  }
+
+  .container, .display-4, .lead{
+    font-size: 14px;
+  }
+}
